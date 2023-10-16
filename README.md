@@ -1,6 +1,6 @@
 # social-app-REST-API
 
-This a scoial app REST api, built with NodeJs, Users can signup and then proceed to login. 
+This a scoial app REST api, built with NodeJs. Users can signup and then proceed to login. 
 The Authentication system is built with JSONWEBTOKENS.
 Users can set their status. theres a default status of "I am new" for every newly signed i user.
 All CRUD operations can be performed, Users can create, edit, view and also delete a POST.
