@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "my-2nd-node-rest---22",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
