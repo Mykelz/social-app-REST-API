@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const multer = require('multer');
-
+require("dotenv").config()
 const feedRoutes = require('./routes/feed');
 const authRoutes = require('./routes/auth');
 
@@ -61,9 +61,9 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-   'mongodb+srv://eze:Password0@cluster0.b3lqm9f.mongodb.net/post'
+    process.env.CONNECT
   )
   .then(result => {
-    app.listen(8080);
+    app.listen(process.env.PORT);
   })
   .catch(err => console.log(err));
