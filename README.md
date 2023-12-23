@@ -6,3 +6,4 @@ Users can set their status. theres a default status of "I am new" for every newl
 All CRUD operations can be performed, Users can create, edit, view and also delete a POST.
 USers can add a maximum of 1 image when creating their POST.
 Only a user who created a particular POST is allowed to edit or delete that POST.
+This application also uses websockets to display newly created post to all users in real time.
